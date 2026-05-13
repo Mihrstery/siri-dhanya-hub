@@ -1,0 +1,28 @@
+# Android/Gradle build outputs
+build/
+app/build/
+.gradle/
+out/
+
+# Local config (machine-specific, never commit)
+local.properties
+keystore.properties
+*.jks
+*.keystore
+
+# IDE files
+.idea/
+*.iml
+.DS_Store
+Thumbs.db
+
+# Kotlin/Java compiled files
+*.class
+
+# Gradle caches
+.gradle/
+gradle/wrapper/gradle-wrapper.jar
+
+# Secrets / API keys — NEVER commit these
+google-services.json
+secrets.xml
